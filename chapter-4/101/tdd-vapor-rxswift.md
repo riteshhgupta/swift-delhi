@@ -1,12 +1,6 @@
 # TDD, Vapor & RxSwift - 101 🤓
 
-### [Swift Delhi Chapter 4](https://www.meetup.com/Swift-Delhi/events/240213082/) 
-
-
-Hey Guys!
-
-We have collected some useful **links** or **resources** which we all can read before coming to our next chapter of Swift Delhi meetup on 3rd June! It's an initiative to make everyone comfortable with our upcoming topics :) 
-
+### Meetup - [Swift Delhi Chapter 4](https://www.meetup.com/Swift-Delhi/events/240213082/)
 
 ## Test Driven Development
 
@@ -57,6 +51,3 @@ This post is a tutorial that will teach you how to bind data to views using RxSw
 --
 
 Prepared by  [Amit kashyap](https://twitter.com/swiftyAmit)!
-
-
-
