@@ -1,4 +1,4 @@
-# TDD, Vapor & RxSwift - 101 🤓
+# TDD, Vapor & RxSwift - 101
 
 ### Meetup - [Swift Delhi Chapter 4](https://www.meetup.com/Swift-Delhi/events/240213082/)
 
