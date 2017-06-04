@@ -1,0 +1,33 @@
+body, html {
+	height: 100%;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 850px;
+}
+
+table td, table th {
+    border: 1px solid black;
+}
+
+table td {
+    padding: 5px;
+}
+
+table tr :last-child {
+    width: 400px;
+}
+
+form {
+    padding: 15px;
+}
+
+form :not(:last-child) {
+    width: 200px;
+}

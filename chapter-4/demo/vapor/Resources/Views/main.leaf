@@ -1,0 +1,33 @@
+#extend("base")
+
+#export("title") { #(title) }
+
+#export("content") {
+    <h1>#(title)</h1>
+
+    <form action="/save-new-entry" method="post">
+        New Entry<br>
+        <input type="text" name="name" placeholder="Name"><br>
+        <input type="text" name="location" placeholder="Location"><br>
+        <input type="date" name="date" placeholder="Date"><br>
+        <textarea name="experience" placeholder="Your experience" rows="5"></textarea><br>
+        <input type="submit" value="Add">
+    </form>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Date</th>
+            <th>Experience</th>
+        </tr>
+        #loop(entries, "mithai") {
+        <tr>
+            <td>#(mithai.name)</td>
+            <td>#(mithai.location)</td>
+            <td>#(mithai.date)</td>
+            <td>#(mithai.experience)</td>
+        </tr>
+        }
+    </table>
+}
