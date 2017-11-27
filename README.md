@@ -15,4 +15,4 @@ Also if you have a different background its not too late to learn something new.
 Swift is a modern programming language by Apple that is fast, safe and interactive. It is a powerful and intuitive programming language for iOS, macOS, watchOS & tvOS. Writing Swift code is interactive and fun, the syntax is concise yet expressive and apps run lightning-fast. Swift is ready for your next project — or addition into your current app — because Swift code works side-by-side with Objective-C. Swift is open sourced too at - https://github.com/apple/swift.
 
 ### 101 (meetup topics)
-- [4th chapter, 3rd June 2017](chapter-4/101/tdd-vapor-rxswift.md)
+- [4th chapter, 3rd June 2017](chapter/4/101/tdd-vapor-rxswift.md)
