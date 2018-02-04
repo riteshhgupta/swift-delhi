@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="SearchViewController" id="BYZ-38-t0r" customClass="SearchViewController" customModule="swift_delhi_demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y0J-tU-uqX">
+                                <rect key="frame" x="0.0" y="20" width="375" height="64"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TaD-No-qiV" customClass="TextField" customModule="swift_delhi_demo" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="10" width="271" height="44"/>
+                                        <color key="tintColor" red="1" green="0.43529411759999997" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fni-pI-tI2">
+                                        <rect key="frame" x="287" y="0.0" width="88" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="88" id="YVj-gA-5Ky"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="16" maxY="0.0"/>
+                                        <state key="normal" title="Dismiss">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapDismissButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1OW-bN-2vL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.26102634260000002" green="0.47164960389999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Fni-pI-tI2" firstAttribute="top" secondItem="y0J-tU-uqX" secondAttribute="top" id="0Ad-7e-06F"/>
+                                    <constraint firstItem="Fni-pI-tI2" firstAttribute="leading" secondItem="TaD-No-qiV" secondAttribute="trailing" constant="8" id="9Ig-f1-tjV"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fni-pI-tI2" secondAttribute="trailing" id="9t4-sS-o36"/>
+                                    <constraint firstAttribute="bottom" secondItem="TaD-No-qiV" secondAttribute="bottom" constant="10" id="EDX-iw-Y0c"/>
+                                    <constraint firstAttribute="bottom" secondItem="Fni-pI-tI2" secondAttribute="bottom" id="HiY-cK-ccG"/>
+                                    <constraint firstAttribute="height" constant="64" id="X4C-ff-dqb"/>
+                                    <constraint firstItem="TaD-No-qiV" firstAttribute="top" secondItem="y0J-tU-uqX" secondAttribute="top" constant="10" id="w6V-tu-tDO"/>
+                                    <constraint firstItem="TaD-No-qiV" firstAttribute="leading" secondItem="y0J-tU-uqX" secondAttribute="leading" constant="8" id="wRe-tq-Oxg"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Yig-rP-XYi">
+                                <rect key="frame" x="0.0" y="100" width="375" height="567"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yig-rP-XYi" secondAttribute="trailing" id="4tG-EJ-8hC"/>
+                            <constraint firstItem="Yig-rP-XYi" firstAttribute="top" secondItem="y0J-tU-uqX" secondAttribute="bottom" constant="16" id="6fb-XD-fZC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y0J-tU-uqX" secondAttribute="trailing" id="FSh-Ja-0kB"/>
+                            <constraint firstItem="y0J-tU-uqX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VgW-Xj-kI7"/>
+                            <constraint firstItem="Yig-rP-XYi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="in8-a3-tP8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Yig-rP-XYi" secondAttribute="bottom" id="o8A-Qg-xAc"/>
+                            <constraint firstItem="y0J-tU-uqX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vxA-X2-aXi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="Yig-rP-XYi" id="yO5-Pg-DOY"/>
+                        <outlet property="textField" destination="TaD-No-qiV" id="IUZ-KA-5ob"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
