@@ -10,13 +10,6 @@
 - after finalising, we should inform the speakers (you can also create a private group of them) and ask them to start preparing for the slides
 - we should ask for the slides atleast one week before the meetup so that we can review them (both technically & content wise)
 
-### What are some best practices to follow when preparing a talk?
--  Length of the talk should not exceed 45 minutes. A presentation of around 30 minutes would be ideal.
--  Highlight any required pre-requisite material/topic needed which is essential to better understand the content of your talk.
--  Go over the overview or ‘what you will learn’ in the first few slides of your presentation. (Could be a list of topics you plan to cover)
--  At the end of your presentation provide a brief summary and any resources for further reading about the topic.
--  If possible, a live demonstration with code would be a great addition to your talk.
-
 ### How to get office space?
 
 - we should share a google form ideally on the first Monday after a meetup in #delhi channel on our slack group - [sample google form](https://docs.google.com/forms/d/1v3J3WnlD2SNLAjXFrsRkTiw6w62R3PhL6GgAdE8whr4/viewform?edit_requested=true)
