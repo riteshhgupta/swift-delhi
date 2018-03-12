@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D37F88AE382B6D82798CDDA /* Pods_GraphQL_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F97411D6346B105F304438 /* Pods_GraphQL_iOSTests.framework */; };
+		53A27F0B5BA0EB3251D670E3 /* Pods_GraphQL_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4280FBFECBCEC089AE1668C4 /* Pods_GraphQL_iOSUITests.framework */; };
+		BE3FED878AE6E61AA0D82376 /* Pods_GraphQL_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE3E0323B4D779859A8861D /* Pods_GraphQL_iOS.framework */; };
+		D1724706202ADF1F007D49A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1724705202ADF1F007D49A9 /* AppDelegate.swift */; };
+		D1724708202ADF1F007D49A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1724707202ADF1F007D49A9 /* ViewController.swift */; };
+		D172470B202ADF1F007D49A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1724709202ADF1F007D49A9 /* Main.storyboard */; };
+		D172470D202ADF1F007D49A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D172470C202ADF1F007D49A9 /* Assets.xcassets */; };
+		D1724710202ADF1F007D49A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D172470E202ADF1F007D49A9 /* LaunchScreen.storyboard */; };
+		D172471B202ADF1F007D49A9 /* GraphQL_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D172471A202ADF1F007D49A9 /* GraphQL_iOSTests.swift */; };
+		D1724726202ADF1F007D49A9 /* GraphQL_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1724725202ADF1F007D49A9 /* GraphQL_iOSUITests.swift */; };
+		D1724736202AE89B007D49A9 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = D1724735202AE89B007D49A9 /* schema.json */; };
+		D1724738202AE9E7007D49A9 /* findRepo.graphql in Resources */ = {isa = PBXBuildFile; fileRef = D1724737202AE9E7007D49A9 /* findRepo.graphql */; };
+		D172473A202AEAC7007D49A9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1724739202AEAC7007D49A9 /* API.swift */; };
+		D172473C202B12AA007D49A9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D172473B202B12AA007D49A9 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1724717202ADF1F007D49A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D17246FA202ADF1F007D49A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1724701202ADF1F007D49A9;
+			remoteInfo = "GraphQL-iOS";
+		};
+		D1724722202ADF1F007D49A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D17246FA202ADF1F007D49A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1724701202ADF1F007D49A9;
+			remoteInfo = "GraphQL-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A1DC09A54124F3955CF1E93 /* Pods-GraphQL-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQL-iOS/Pods-GraphQL-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		1B403AA44E0FF358B3E0B5F3 /* Pods-GraphQL-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQL-iOSUITests/Pods-GraphQL-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		368C638CBC45A0855683BB81 /* Pods-GraphQL-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQL-iOSTests/Pods-GraphQL-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4280FBFECBCEC089AE1668C4 /* Pods_GraphQL_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQL_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE3E0323B4D779859A8861D /* Pods_GraphQL_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQL_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F97411D6346B105F304438 /* Pods_GraphQL_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQL_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC858D2BA41CE3569FB9C148 /* Pods-GraphQL-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQL-iOSTests/Pods-GraphQL-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1724702202ADF1F007D49A9 /* GraphQL-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GraphQL-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1724705202ADF1F007D49A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1724707202ADF1F007D49A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D172470A202ADF1F007D49A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D172470C202ADF1F007D49A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D172470F202ADF1F007D49A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1724711202ADF1F007D49A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1724716202ADF1F007D49A9 /* GraphQL-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GraphQL-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D172471A202ADF1F007D49A9 /* GraphQL_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQL_iOSTests.swift; sourceTree = "<group>"; };
+		D172471C202ADF1F007D49A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1724721202ADF1F007D49A9 /* GraphQL-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GraphQL-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1724725202ADF1F007D49A9 /* GraphQL_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQL_iOSUITests.swift; sourceTree = "<group>"; };
+		D1724727202ADF1F007D49A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1724735202AE89B007D49A9 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = schema.json; path = ../../../schema.json; sourceTree = "<group>"; };
+		D1724737202AE9E7007D49A9 /* findRepo.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = findRepo.graphql; sourceTree = "<group>"; };
+		D1724739202AEAC7007D49A9 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		D172473B202B12AA007D49A9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E224FF4C50769810F33CF85B /* Pods-GraphQL-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQL-iOS/Pods-GraphQL-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E45C10B8A8C18F8EF9A1C10F /* Pods-GraphQL-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQL-iOSUITests/Pods-GraphQL-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D17246FF202ADF1F007D49A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3FED878AE6E61AA0D82376 /* Pods_GraphQL_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1724713202ADF1F007D49A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D37F88AE382B6D82798CDDA /* Pods_GraphQL_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D172471E202ADF1F007D49A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A27F0B5BA0EB3251D670E3 /* Pods_GraphQL_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		791DFD9A855107CF82991374 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E224FF4C50769810F33CF85B /* Pods-GraphQL-iOS.debug.xcconfig */,
+				0A1DC09A54124F3955CF1E93 /* Pods-GraphQL-iOS.release.xcconfig */,
+				368C638CBC45A0855683BB81 /* Pods-GraphQL-iOSTests.debug.xcconfig */,
+				CC858D2BA41CE3569FB9C148 /* Pods-GraphQL-iOSTests.release.xcconfig */,
+				E45C10B8A8C18F8EF9A1C10F /* Pods-GraphQL-iOSUITests.debug.xcconfig */,
+				1B403AA44E0FF358B3E0B5F3 /* Pods-GraphQL-iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8EE6102F8A4AEF715BBD1FAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3E0323B4D779859A8861D /* Pods_GraphQL_iOS.framework */,
+				73F97411D6346B105F304438 /* Pods_GraphQL_iOSTests.framework */,
+				4280FBFECBCEC089AE1668C4 /* Pods_GraphQL_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D17246F9202ADF1F007D49A9 = {
+			isa = PBXGroup;
+			children = (
+				D1724704202ADF1F007D49A9 /* GraphQL-iOS */,
+				D1724719202ADF1F007D49A9 /* GraphQL-iOSTests */,
+				D1724724202ADF1F007D49A9 /* GraphQL-iOSUITests */,
+				D1724703202ADF1F007D49A9 /* Products */,
+				791DFD9A855107CF82991374 /* Pods */,
+				8EE6102F8A4AEF715BBD1FAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D1724703202ADF1F007D49A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1724702202ADF1F007D49A9 /* GraphQL-iOS.app */,
+				D1724716202ADF1F007D49A9 /* GraphQL-iOSTests.xctest */,
+				D1724721202ADF1F007D49A9 /* GraphQL-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1724704202ADF1F007D49A9 /* GraphQL-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D1724739202AEAC7007D49A9 /* API.swift */,
+				D1724705202ADF1F007D49A9 /* AppDelegate.swift */,
+				D1724707202ADF1F007D49A9 /* ViewController.swift */,
+				D1724709202ADF1F007D49A9 /* Main.storyboard */,
+				D172470C202ADF1F007D49A9 /* Assets.xcassets */,
+				D172470E202ADF1F007D49A9 /* LaunchScreen.storyboard */,
+				D1724711202ADF1F007D49A9 /* Info.plist */,
+				D1724735202AE89B007D49A9 /* schema.json */,
+				D1724737202AE9E7007D49A9 /* findRepo.graphql */,
+				D172473B202B12AA007D49A9 /* Constants.swift */,
+			);
+			path = "GraphQL-iOS";
+			sourceTree = "<group>";
+		};
+		D1724719202ADF1F007D49A9 /* GraphQL-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D172471A202ADF1F007D49A9 /* GraphQL_iOSTests.swift */,
+				D172471C202ADF1F007D49A9 /* Info.plist */,
+			);
+			path = "GraphQL-iOSTests";
+			sourceTree = "<group>";
+		};
+		D1724724202ADF1F007D49A9 /* GraphQL-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1724725202ADF1F007D49A9 /* GraphQL_iOSUITests.swift */,
+				D1724727202ADF1F007D49A9 /* Info.plist */,
+			);
+			path = "GraphQL-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1724701202ADF1F007D49A9 /* GraphQL-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D172472A202ADF1F007D49A9 /* Build configuration list for PBXNativeTarget "GraphQL-iOS" */;
+			buildPhases = (
+				825BC43C2C0A534C9E6F1C57 /* [CP] Check Pods Manifest.lock */,
+				D1724734202AE024007D49A9 /* Generate Apollo GraphQL API */,
+				D17246FE202ADF1F007D49A9 /* Sources */,
+				D17246FF202ADF1F007D49A9 /* Frameworks */,
+				D1724700202ADF1F007D49A9 /* Resources */,
+				44FBAA3B68659313C8614066 /* [CP] Embed Pods Frameworks */,
+				5022E5BDAB6062DFD7B8B667 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GraphQL-iOS";
+			productName = "GraphQL-iOS";
+			productReference = D1724702202ADF1F007D49A9 /* GraphQL-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1724715202ADF1F007D49A9 /* GraphQL-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D172472D202ADF1F007D49A9 /* Build configuration list for PBXNativeTarget "GraphQL-iOSTests" */;
+			buildPhases = (
+				9DB8DE80E46B7A9D06DEFA9D /* [CP] Check Pods Manifest.lock */,
+				D1724712202ADF1F007D49A9 /* Sources */,
+				D1724713202ADF1F007D49A9 /* Frameworks */,
+				D1724714202ADF1F007D49A9 /* Resources */,
+				849D599433DE6BB964DE80FE /* [CP] Embed Pods Frameworks */,
+				84B52F2C4281D6CE7200E5DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1724718202ADF1F007D49A9 /* PBXTargetDependency */,
+			);
+			name = "GraphQL-iOSTests";
+			productName = "GraphQL-iOSTests";
+			productReference = D1724716202ADF1F007D49A9 /* GraphQL-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1724720202ADF1F007D49A9 /* GraphQL-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1724730202ADF1F007D49A9 /* Build configuration list for PBXNativeTarget "GraphQL-iOSUITests" */;
+			buildPhases = (
+				E324FDC28F64024AC8407852 /* [CP] Check Pods Manifest.lock */,
+				D172471D202ADF1F007D49A9 /* Sources */,
+				D172471E202ADF1F007D49A9 /* Frameworks */,
+				D172471F202ADF1F007D49A9 /* Resources */,
+				5274F98526D9D15CDC1BFFE7 /* [CP] Embed Pods Frameworks */,
+				6EACDF6971E731E5DF2C6AE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1724723202ADF1F007D49A9 /* PBXTargetDependency */,
+			);
+			name = "GraphQL-iOSUITests";
+			productName = "GraphQL-iOSUITests";
+			productReference = D1724721202ADF1F007D49A9 /* GraphQL-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D17246FA202ADF1F007D49A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bhagat Singh";
+				TargetAttributes = {
+					D1724701202ADF1F007D49A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D1724715202ADF1F007D49A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1724701202ADF1F007D49A9;
+					};
+					D1724720202ADF1F007D49A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1724701202ADF1F007D49A9;
+					};
+				};
+			};
+			buildConfigurationList = D17246FD202ADF1F007D49A9 /* Build configuration list for PBXProject "GraphQL-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D17246F9202ADF1F007D49A9;
+			productRefGroup = D1724703202ADF1F007D49A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1724701202ADF1F007D49A9 /* GraphQL-iOS */,
+				D1724715202ADF1F007D49A9 /* GraphQL-iOSTests */,
+				D1724720202ADF1F007D49A9 /* GraphQL-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1724700202ADF1F007D49A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1724736202AE89B007D49A9 /* schema.json in Resources */,
+				D1724710202ADF1F007D49A9 /* LaunchScreen.storyboard in Resources */,
+				D172470D202ADF1F007D49A9 /* Assets.xcassets in Resources */,
+				D172470B202ADF1F007D49A9 /* Main.storyboard in Resources */,
+				D1724738202AE9E7007D49A9 /* findRepo.graphql in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1724714202ADF1F007D49A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D172471F202ADF1F007D49A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44FBAA3B68659313C8614066 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GraphQL-iOS/Pods-GraphQL-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQL-iOS/Pods-GraphQL-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5022E5BDAB6062DFD7B8B667 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQL-iOS/Pods-GraphQL-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5274F98526D9D15CDC1BFFE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQL-iOSUITests/Pods-GraphQL-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EACDF6971E731E5DF2C6AE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQL-iOSUITests/Pods-GraphQL-iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		825BC43C2C0A534C9E6F1C57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraphQL-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849D599433DE6BB964DE80FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQL-iOSTests/Pods-GraphQL-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84B52F2C4281D6CE7200E5DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQL-iOSTests/Pods-GraphQL-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB8DE80E46B7A9D06DEFA9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraphQL-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1724734202AE024007D49A9 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APOLLO_FRAMEWORK_PATH=\"$(eval find $FRAMEWORK_SEARCH_PATHS -name \"Apollo.framework\" -maxdepth 1)\"\n\nif [ -z \"$APOLLO_FRAMEWORK_PATH\" ]; then\necho \"error: Couldn't find Apollo.framework in FRAMEWORK_SEARCH_PATHS; make sure to add the framework to your project.\"\nexit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n$APOLLO_FRAMEWORK_PATH/check-and-run-apollo-codegen.sh generate $(find . -name '*.graphql') --schema schema.json --output API.swift";
+		};
+		E324FDC28F64024AC8407852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraphQL-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D17246FE202ADF1F007D49A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1724708202ADF1F007D49A9 /* ViewController.swift in Sources */,
+				D172473A202AEAC7007D49A9 /* API.swift in Sources */,
+				D1724706202ADF1F007D49A9 /* AppDelegate.swift in Sources */,
+				D172473C202B12AA007D49A9 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1724712202ADF1F007D49A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D172471B202ADF1F007D49A9 /* GraphQL_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D172471D202ADF1F007D49A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1724726202ADF1F007D49A9 /* GraphQL_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1724718202ADF1F007D49A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1724701202ADF1F007D49A9 /* GraphQL-iOS */;
+			targetProxy = D1724717202ADF1F007D49A9 /* PBXContainerItemProxy */;
+		};
+		D1724723202ADF1F007D49A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1724701202ADF1F007D49A9 /* GraphQL-iOS */;
+			targetProxy = D1724722202ADF1F007D49A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1724709202ADF1F007D49A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D172470A202ADF1F007D49A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D172470E202ADF1F007D49A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D172470F202ADF1F007D49A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1724728202ADF1F007D49A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1724729202ADF1F007D49A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D172472B202ADF1F007D49A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E224FF4C50769810F33CF85B /* Pods-GraphQL-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VG36S3M9UZ;
+				INFOPLIST_FILE = "GraphQL-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhagatsingh.GraphQL-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D172472C202ADF1F007D49A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A1DC09A54124F3955CF1E93 /* Pods-GraphQL-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VG36S3M9UZ;
+				INFOPLIST_FILE = "GraphQL-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhagatsingh.GraphQL-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D172472E202ADF1F007D49A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368C638CBC45A0855683BB81 /* Pods-GraphQL-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VG36S3M9UZ;
+				INFOPLIST_FILE = "GraphQL-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhagatsingh.GraphQL-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQL-iOS.app/GraphQL-iOS";
+			};
+			name = Debug;
+		};
+		D172472F202ADF1F007D49A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC858D2BA41CE3569FB9C148 /* Pods-GraphQL-iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VG36S3M9UZ;
+				INFOPLIST_FILE = "GraphQL-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhagatsingh.GraphQL-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQL-iOS.app/GraphQL-iOS";
+			};
+			name = Release;
+		};
+		D1724731202ADF1F007D49A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45C10B8A8C18F8EF9A1C10F /* Pods-GraphQL-iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VG36S3M9UZ;
+				INFOPLIST_FILE = "GraphQL-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhagatsingh.GraphQL-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GraphQL-iOS";
+			};
+			name = Debug;
+		};
+		D1724732202ADF1F007D49A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B403AA44E0FF358B3E0B5F3 /* Pods-GraphQL-iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VG36S3M9UZ;
+				INFOPLIST_FILE = "GraphQL-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhagatsingh.GraphQL-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GraphQL-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D17246FD202ADF1F007D49A9 /* Build configuration list for PBXProject "GraphQL-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1724728202ADF1F007D49A9 /* Debug */,
+				D1724729202ADF1F007D49A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D172472A202ADF1F007D49A9 /* Build configuration list for PBXNativeTarget "GraphQL-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D172472B202ADF1F007D49A9 /* Debug */,
+				D172472C202ADF1F007D49A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D172472D202ADF1F007D49A9 /* Build configuration list for PBXNativeTarget "GraphQL-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D172472E202ADF1F007D49A9 /* Debug */,
+				D172472F202ADF1F007D49A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1724730202ADF1F007D49A9 /* Build configuration list for PBXNativeTarget "GraphQL-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1724731202ADF1F007D49A9 /* Debug */,
+				D1724732202ADF1F007D49A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D17246FA202ADF1F007D49A9 /* Project object */;
+}
